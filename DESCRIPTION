@@ -1,0 +1,14 @@
+Package: ROpenFIGI
+Type: Package
+Title: R Interface to OpenFIGI
+Version: 0.2.8
+Author: Ruokun Huang <hruokun.2008@gmail.com>
+Maintainer: Ruokun Huang <hruokun.2008@gmail.com>
+Description: Provide a simple interface to Bloomberg's OpenFIGI API
+License: GPL (>= 3)
+LazyData: TRUE
+Imports:
+    httr,
+    jsonlite
+Suggests: testthat, dplyr
+RoxygenNote: 5.0.1

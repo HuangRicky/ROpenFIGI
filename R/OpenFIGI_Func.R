@@ -70,6 +70,7 @@ OpenFIGI <- function(input, apikey=NULL, openfigiurl = "https://api.openfigi.com
 #' @param input input data.frame or json, and others that can be feed into toJSON
 #' @param apikey your API key
 #' @param openfigiurl Bloomberg's OpenFIGI URL, please see https://openfigi.com/api
+#' @param additioncols additional columns you would like to include in the data.frame
 #' @return a data.frame
 #' @examples
 #' \dontrun{
@@ -101,7 +102,10 @@ OpenFIGI_MappingCreator <- function(input, apikey=NULL, openfigiurl = "https://a
 }
 
 #' Assign addition cols
+#' @param rst1 a result list
+#' @param additioncols additional columns you would like to include in the data.frame
 #' @details internal function
+#' @return a data.frame with new columns
 OpenFIGI_assignadditionalcols <- function(rst1,additioncols){
   for(i in additioncols){
     rst1[[i]] <- NA_character_

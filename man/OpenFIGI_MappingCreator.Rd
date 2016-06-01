@@ -19,6 +19,8 @@ OpenFIGI_MappingCreator(input, apikey = NULL,
 \item{apikey}{your API key}
 
 \item{openfigiurl}{Bloomberg's OpenFIGI URL, please see https://openfigi.com/api}
+
+\item{additioncols}{additional columns you would like to include in the data.frame}
 }
 \value{
 a data.frame

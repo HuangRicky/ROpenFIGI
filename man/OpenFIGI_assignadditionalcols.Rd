@@ -6,6 +6,14 @@
 \usage{
 OpenFIGI_assignadditionalcols(rst1, additioncols)
 }
+\arguments{
+\item{rst1}{a result list}
+
+\item{additioncols}{additional columns you would like to include in the data.frame}
+}
+\value{
+a data.frame with new columns
+}
 \description{
 Assign addition cols
 }

@@ -7,6 +7,7 @@ Maintainer: Ruokun Huang <hruokun.2008@gmail.com>
 Description: Provide a simple interface to Bloomberg's OpenFIGI API
 License: GPL (>= 3)
 LazyData: TRUE
+URL: https://github.com/HuangRicky/ROpenFIGI
 Imports:
     httr,
     jsonlite

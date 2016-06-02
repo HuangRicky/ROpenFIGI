@@ -4,7 +4,9 @@ Title: R Interface to OpenFIGI
 Version: 0.2.8
 Author: Ruokun Huang <hruokun.2008@gmail.com>
 Maintainer: Ruokun Huang <hruokun.2008@gmail.com>
-Description: Provide a simple interface to Bloomberg's OpenFIGI API
+Description: Provide a simple interface to Bloomberg's OpenFIGI API. Please see
+    <https://openfigi.com> for API details. You can also apply for an API key on
+    their website to accelerate.
 License: GPL (>= 3)
 LazyData: TRUE
 URL: https://github.com/HuangRicky/ROpenFIGI
